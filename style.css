@@ -193,6 +193,9 @@ footer{
 }
 
 @media(max-width:768px){
+    nav ul{
+        display: none;
+    }
 .hero{grid-template-columns:1fr;text-align:center}
 .nav-links{display:none}
 .menu-btn{display:block;
